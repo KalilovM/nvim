@@ -1,8 +1,8 @@
-require("plugins.catppuccin.catppuccin")
+require("catppuccin.catppuccin")
 require("global.remap")
-require("plugins.packer.packer")
-require("plugins.mason.mason")
-require("plugins.neotree.neotree")
+require("packer.packer")
+require("mason.mason")
+require("neotree.neotree")
 
 local opt = vim.opt
 
@@ -48,3 +48,5 @@ opt.clipboard = 'unnamedplus'
 opt.scrolloff = 15
 
 vim.cmd[[colorscheme catppuccin-macchiato]]
+
+
